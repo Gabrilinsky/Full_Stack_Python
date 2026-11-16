@@ -26,10 +26,27 @@ print(gatos) #Imprime: ['Garfield', 'Hello Kitty']
 # Tuplas: Tipo de datos inmutable (que no se puede modificar) y contiene un conjunto de distintos valores. Pueden contener distintos tipos de datos.
 perro = ("Scooby Doo", "Gran Danés", "Scooby Galletas", 7)
 print(perro[0]) #Imprime: Scooby Doo
-perro[2] = "comida de perro" #ERROR: Las tuplas no pueden ser modificadas 
+# perro[2] = "comida de perro" #ERROR: Las tuplas no pueden ser modificadas 
 # perro = ("Scooby Doo", "Gran Danés", "Scooby Galletas", 7)
 # print(perro[0]) #Imprime: Scooby Doo
 
+Ejemplo_matriz = [
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 9]  
+]
+print(Ejemplo_matriz[1][2]) #Imprime
+print(Ejemplo_matriz[2][2])
+
+ #Tarea 
+ #Crear una matriz de 4x4 y mostrar el numero 16 en la terminal
+matriz_4x4 = [
+  [1, 2, 3, 4]
+  [5, 6, 7, 8]
+  [9, 10, 11, 12]
+  [13, 14, 15, 16]
+ ]
+print(matriz_4x4[3][3])
 
 # diccionario_vacio = {}
 # persona = {'nombre': 'Carmen', 'edad': 31, 'altura': 1.71, 'usa_lentes': False}
