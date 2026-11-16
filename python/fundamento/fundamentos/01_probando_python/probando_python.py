@@ -16,8 +16,14 @@ print("Ahora veremos un bucle que muestra los números del 1 al 10:")
 for num in range(1, 11):
     print(f"El valor actual de num es: {num}")
 
+# Desafio Bucle
+for nume in range(20, 1, -1):
+    print(f"La cuenta regresiva empieza en: {nume}")
+
+
 # Definimos una lista de días laborables
 semana = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]
+print(f"El mejor día de la semana es: {semana[4]}")
 
 # Seleccionamos al azar un día de la semana
 dia = random.choice(semana)
