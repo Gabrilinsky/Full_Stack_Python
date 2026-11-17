@@ -31,27 +31,41 @@ print(perro[0]) #Imprime: Scooby Doo
 # print(perro[0]) #Imprime: Scooby Doo
 
 Ejemplo_matriz = [
-[1, 2, 3]
-[4, 5, 6]
-[7, 8, 9]  
+[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9] 
 ]
 print(Ejemplo_matriz[1][2]) #Imprime
 print(Ejemplo_matriz[2][2])
 
  #Tarea 
  #Crear una matriz de 4x4 y mostrar el numero 16 en la terminal
-matriz_4x4 = [
-  [1, 2, 3, 4]
-  [5, 6, 7, 8]
-  [9, 10, 11, 12]
+Matriz_4x4 = [
+  [1, 2, 3, 4],
+  [5, 6, 7, 8],
+  [9, 10, 11, 12],
   [13, 14, 15, 16]
- ]
-print(matriz_4x4[3][3])
+]
+print(Matriz_4x4[3][3])
 
 # diccionario_vacio = {}
-# persona = {'nombre': 'Carmen', 'edad': 31, 'altura': 1.71, 'usa_lentes': False}
-# persona['nombre'] = 'Valeria'  # Actualiza si el valor de la llave existente
-# persona['hobbies'] = ['jugar videojuegos', 'programación'] 
+persona = {
+    'nombre': 'Carmen', 
+    'edad': 31, 'altura': 1.71,
+    'usa_lentes': False}
+
+persona['nombre'] = 'Valeria'  # Actualiza si el valor de la llave existente
+persona['hobbies'] = ['jugar videojuegos', 'programación'] 
+# Incorporar 2 Llaves a persona; profesión, comida favorita, mascotas, peliculas_favoritas
+name = {
+    'nombre': 'Raul', 'edad': 15, 'altura': 1.65,   
+}
+name['Profesión'] = ['Futbolista', 'Programador', 'Artista']
+name['Comida_favorita'] = ['Tallarines con salsa de tomate', 'Lasaña', 'Lentejas']
+name['mascotas'] = ['Gato', 'Perro']
+name['peliculas_favoritas'] = ['El Padrino', 'Scarface', 'Rapido y Furioso',]
+print(name)
+
 
 # Agrega esa clave-valor si no existía previamente
 # print(persona)
@@ -63,26 +77,9 @@ print(matriz_4x4[3][3])
 
 # salida: {'nombre': 'Carmen', 'edad': 31, 'usa_lentes': False, 'hobbies': ['jugar videojuegos', 'programación']} 
 
-# print(type(3.1416)) #Imprime: <class 'float'>
-# print(type(persona)) #Imprime <class 'dict'>
+print(type(3.1416)) #Imprime: <class 'float'>
+print(type(persona)) #Imprime <class 'dict'>
 
 # print(len(persona)) #Imprime: 4 (la cantidad de pares de clave-valor)
 # print(len("Me encanta programar")) #Imprime: 20
 
-# type
-# print(type(1.1)) #Imprime: <class 'float'>
-# print(type(615)) #Imprime: <class 'int'>
-# print(type(2j)) #Imprime: <class 'complex'>
-
-# Conversión
-# entero_a_decimal = float(123)
-# decimal_a_entero = int(22.5)
-# entero_a_complejo = complex(35)
-# print(entero_a_decimal) #Imprime: 123.0
-# print(decimal_a_entero) #Imprime: 22
-# print(entero_a_complejo) #Imprime: (35+0j)
-
-# Numero Aleatorio
-# import random
-# num_aleatorio = random.randint(5, 10) #Genera un número aleatorio entre 5 y 10
-# print(num_aleatorio) #Imprime el número aleatorio generado
